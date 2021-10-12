@@ -1,0 +1,38 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+class cDistanceSensor 
+{
+
+    unsigned uintSensorValue;
+    int min;
+    int max;
+    int range;
+    unsigned GenerateValue(void);
+public:
+    unsigned Measurement(void);
+};
+
+unsigned cDistanceSensor::GenerateValue(void)
+{
+    int randnum;
+    srand(time(NULL));
+    for (min >= 5; range; max <= 55)
+    {
+        randnum = rand();
+
+    }
+    return Measurement (randnum);
+}
+unsigned cDistanceSensor::Measurement(void)
+{
+    cout << randnum << endl;
+}
+int main()
+{
+    unsigned num1;
+    cDistanceSensor numrand;
+    numrand.Measurement(num1);
+}
